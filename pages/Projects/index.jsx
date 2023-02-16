@@ -3,7 +3,7 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='flex items-center h-[1400px] md:h-[1100px] lg:h-screen justify-center'>
+    <div className='flex justify-center'>
         
         <div className="flex flex-col gap-y-5">
         <div className="bg-gray-800/30 w-full h-[4rem] flex items-center">

@@ -19,7 +19,7 @@ const Repo = () => {
     fetchRepos()
   }, [user])
   return (
-    <div className="flex md:h-[1400px] h-[2000px] lg:h-[1100px] justify-center items-center">
+    <div className="">
       <div className="flex flex-col gap-y-10 ">
         <div className="bg-gray-800/30 w-full h-[4rem] flex items-center">
           <h1 className='container mx-auto text-gray-300 font-medium text-xl flex gap-3 items-center'>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
   return (
-    <div className='flex h-screen items-center justify-center w-full'>
+    <div className='flex h-[460px] items-center justify-center'>
         <Skill/>
     </div>
   )

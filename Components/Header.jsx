@@ -9,7 +9,7 @@ const Header = () => {
     const router = useRouter()
     const [nav, setnav] = useState(false)
     return (
-        <nav className='bg-gray-800 w-full h-[5.5rem] shadow-lg shadow-gray-700 fixed top-0 z-50'>
+        <nav className='bg-gray-800 w-full h-[5.5rem] shadow-lg shadow-gray-700'>
             <div className="container mx-auto flex items-center h-full justify-between">
                 <div className="">
                     <h1 className='text-gray-300 text-2xl font-bold'>NotFounds</h1>
