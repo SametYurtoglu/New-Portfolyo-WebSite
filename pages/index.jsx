@@ -5,6 +5,8 @@ import Skill from '@/Components/Skill'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
+import { AiOutlineInstagram, AiOutlineYoutube } from 'react-icons/ai'
+import {FaDiscord} from 'react-icons/fa'
 
 export default function Home() {
   const [items, setItems] = useState([])
@@ -36,14 +38,14 @@ export default function Home() {
             <Image alt='image' src={'/images/logo.png'} fill className='rounded-full border-4 border-gray-700 hover:scale-110 duration-300' />
           </div>
           <div className="text-center text-white">
-            <h1>Samet</h1>
-            <span>FrontEnd Developer</span>
+            <h1 className='text-xl'>Samet</h1>
+            <h4 className='text-fuchsia-600'>FrontEnd Developer</h4>
             <p className='text-gray-400 text-base w-[400px] md:w-[500px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sunt odio iste quo reprehenderit hic consequuntur nihil minima quod rem nemo perspiciatis corrupti suscipit obcaecati eos animi officiis, voluptates accusamus?</p>
           </div>
           <div className="flex gap-5">
-            <button>Instagram</button>
-            <button>Youtube</button>
-            <button>Discord</button>
+            <a href='#' className='border border-gray-700 py-1 px-3 text-gray-200 flex items-center gap-1 hover:bg-pink-600 duration-300'><AiOutlineInstagram/>Instagram</a>
+            <a href='#' className='border border-gray-700 py-1 px-3 text-gray-200 flex items-center gap-1 hover:bg-red-600 duration-300'><AiOutlineYoutube/>Youtube</a>
+            <a href='#' className='border border-gray-700 py-1 px-3 text-gray-200 flex items-center gap-1 hover:bg-blue-600 duration-300'><FaDiscord/>Discord</a>
           </div>
         </div>
       </div>
@@ -57,7 +59,7 @@ export default function Home() {
       {/* Projects Card */}
       <div className="flex flex-col gap-y-10 my-16">
         <div className="bg-gray-800/30 w-full h-[4rem] flex items-center">
-          <h1 className='container mx-auto text-gray-300 font-medium text-xl'>Projects</h1>
+          <h1 className='container mx-auto text-gray-300 font-medium text-xl flex md:justify-start justify-center'>Projects</h1>
         </div>
         <div className="container mx-auto">
           <ProjectsCard />
@@ -68,7 +70,7 @@ export default function Home() {
       {/* Github Repo */}
       <div className="flex flex-col gap-y-10 ">
         <div className="bg-gray-800/30 w-full h-[4rem] flex items-center">
-          <h1 className='container mx-auto text-gray-300 font-medium text-xl flex gap-3 items-center'>
+          <h1 className='container mx-auto text-gray-300 font-medium text-xl gap-3 items-center flex md:justify-start justify-center'>
             Github Repository
             <a href="https://github.com/SankThomas/github-users" className='text-blue-600 underline text-sm' target={'_blank'} rel="noreferrer">Producer</a>
           </h1>

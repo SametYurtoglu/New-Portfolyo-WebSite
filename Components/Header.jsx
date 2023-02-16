@@ -57,7 +57,6 @@ const Header = () => {
                     </div>}
                 </OutsideClickHandler>
                 <button className='text-white flex md:hidden bg-blue-600/20 hover:bg-blue-600/40 rounded-lg p-2' onClick={() => setnav(!nav)}><AiOutlineMenu /></button>
-                <button><BsFillSunFill/></button>
             </div>
         </nav>
     )

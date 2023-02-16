@@ -3,8 +3,8 @@ import React from 'react'
 const Skill = () => {
     return (
         <div className="flex flex-col gap-y-10">
-            <div className="bg-gray-800/30 w-full h-[4rem] flex items-center">
-                <h1 className='container mx-auto text-gray-300 font-medium text-xl'>Skills</h1>
+            <div className="bg-gray-800/30 w-full h-[4rem] flex items-center ">
+                <h1 className='container mx-auto text-gray-300 font-medium text-xl flex md:justify-start justify-center'>Skills</h1>
             </div>
             <div className="container mx-auto">
                 <div className="flex gap-x-5 flex-wrap justify-center">

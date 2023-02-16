@@ -3,7 +3,7 @@ import React from 'react'
 
 const ProjectsCardItem = ({ title, desc, avatar, link }) => {
   return (
-    <div className='bg-transparent w-[330px] h-full rounded-lg hover:-translate-y-5 hover:shadow-2xl duration-500 hover:scale-105 '>
+    <div className='bg-transparent w-[300px] h-full rounded-lg hover:-translate-y-5 hover:shadow-2xl duration-500 hover:scale-105 '>
       <div>
         <div className="bg-projebg relative w-full rounded-t-lg h-[180px] bg-center bg-cover">
           <Image alt='' src={avatar} fill className='rounded-lg' />
